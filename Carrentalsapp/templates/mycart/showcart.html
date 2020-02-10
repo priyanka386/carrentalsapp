@@ -1,0 +1,32 @@
+
+<body>
+<table>
+	<table class="table table-hover">
+  <thead>
+    <tr> 
+      <th>product name</th><br>
+      <th>product imagename</th><br>
+      <th>Product Price</th><br>
+      <th>product image</th><br>
+    </tr>
+  </thead>
+    <tr>
+    {% for product in show_cart_items %}
+      <td>{{ product.vehicle.name }}</td>
+      <td>{{ product.vehicle.image }}</td>                      
+      <td>{{ product.grand_total }}</td>
+      <td><img src="{{product.vehicle.image.url}}" height="150px;"></td>
+
+    </tr>
+    {% endfor %}
+<tr>
+	<td>
+		<th>grand_total {{total}}</th>
+	</td>
+</tr>
+</table>
+
+</form>
+
+</table>
+</body>

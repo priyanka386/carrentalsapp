@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+<body>
+{% block content %}
+
+<table border="1" cellpadding="50;">
+	<tr>
+		<td>id</td>
+		<td>payment_status</td>
+		<td>image</td>
+
+   </tr>
+   {% csrf_token %}
+{% for product in cart %}
+<form method="GET" action="/order_list/">
+<input type="text" name="name" value="{{product.id}}">
+<tr>
+<td>{{product.vehicle.id}}</td>
+<td>{{product.price}}</td>
+<td>{{product.image}}</td>
+<td><img src="{{product.vehicle.image.url}}" height="150px;"></td>
+      <p align="right">
+
+         {% csrf_token %}
+    </form>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
+</body>

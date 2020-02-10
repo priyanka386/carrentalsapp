@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43050387-e0e6-407a-8684-c30611e1e2ff" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X6tr1tkY60NU9JjypuF7FlrTGI" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Carrentalsapp" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Carrentalsapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43050387-e0e6-407a-8684-c30611e1e2ff" name="Default Changelist" comment="" />
+      <created>1580378566569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580378566569</updated>
+      <workItem from="1580378568293" duration="579000" />
+      <workItem from="1580379297340" duration="1699000" />
+      <workItem from="1580381142630" duration="1478000" />
+      <workItem from="1580383168989" duration="1690000" />
+      <workItem from="1580384994853" duration="1715000" />
+      <workItem from="1580386850704" duration="1702000" />
+      <workItem from="1580388704069" duration="905000" />
+      <workItem from="1580389837331" duration="573000" />
+      <workItem from="1580390543782" duration="1712000" />
+      <workItem from="1580392448820" duration="1711000" />
+      <workItem from="1580394351989" duration="1706000" />
+      <workItem from="1580448623661" duration="1760000" />
+      <workItem from="1580450541179" duration="1702000" />
+      <workItem from="1580452377346" duration="1726000" />
+      <workItem from="1580454226233" duration="1783000" />
+      <workItem from="1580456151470" duration="1717000" />
+      <workItem from="1580458194589" duration="99000" />
+      <workItem from="1580466841138" duration="1674000" />
+      <workItem from="1580468844579" duration="1714000" />
+      <workItem from="1580472378720" duration="1715000" />
+      <workItem from="1580474553671" duration="1601000" />
+      <workItem from="1580477493463" duration="1686000" />
+      <workItem from="1580636668879" duration="1026000" />
+      <workItem from="1580644543253" duration="357000" />
+      <workItem from="1580701378757" duration="958000" />
+      <workItem from="1580706764540" duration="1743000" />
+      <workItem from="1580708662020" duration="2296000" />
+      <workItem from="1580711422831" duration="1591000" />
+      <workItem from="1580713614639" duration="551000" />
+      <workItem from="1580714698139" duration="1727000" />
+      <workItem from="1580717108232" duration="1656000" />
+      <workItem from="1580723090891" duration="1786000" />
+      <workItem from="1580725044024" duration="1721000" />
+      <workItem from="1580726932949" duration="1894000" />
+      <workItem from="1580729919626" duration="1719000" />
+      <workItem from="1580732356852" duration="1218000" />
+      <workItem from="1580734191145" duration="1723000" />
+      <workItem from="1580736776529" duration="1847000" />
+      <workItem from="1580740062155" duration="1728000" />
+      <workItem from="1580747943642" duration="824000" />
+      <workItem from="1580794831714" duration="251000" />
+      <workItem from="1580801244034" duration="1834000" />
+      <workItem from="1580816878013" duration="1220000" />
+      <workItem from="1580818535201" duration="1615000" />
+      <workItem from="1580821030069" duration="1721000" />
+      <workItem from="1580822886512" duration="1793000" />
+      <workItem from="1580824849707" duration="1455000" />
+      <workItem from="1580885864255" duration="1451000" />
+      <workItem from="1580887572350" duration="598000" />
+      <workItem from="1580896096420" duration="1696000" />
+      <workItem from="1580903414344" duration="871000" />
+      <workItem from="1580921830902" duration="1816000" />
+      <workItem from="1580972324721" duration="244000" />
+      <workItem from="1580976845174" duration="1269000" />
+      <workItem from="1581010905147" duration="1480000" />
+      <workItem from="1581013260464" duration="136000" />
+      <workItem from="1581068103003" duration="65000" />
+      <workItem from="1581076303888" duration="859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

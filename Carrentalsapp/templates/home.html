@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock %}
+{% block body %}
+<div class="container">
+    {% if user.is_authenticated %}
+        <h2>Welcome {{ user.username.capitalize }}!</h2>
+        {% else %}
+        <h2>Welcome Guest</h2>
+    {% endif %}
+</div>
+{% endblock %}

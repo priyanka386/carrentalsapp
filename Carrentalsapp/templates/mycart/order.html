@@ -1,0 +1,33 @@
+
+
+{% extends 'base.html' %}
+<body>
+{% block content %}			
+<table border="1" cellpadding="50;">
+<h1>list of order</h1>
+	<tr>
+		<td>NAME</td>
+		<td>PRICE</td>
+		<td>TYPE</td>
+		<td>IMAGE</td>
+		<td>cart</td>
+	</tr>
+{% for product in order_details %}
+{% csrf_token %}
+<form method="POST" action=/add_to_cart/?id={{product.id}}>
+<input type="text" hidden name="id" value="{{product.id}}">
+<tr>
+<td>{{product.name}}</td>
+<td>{{product.price}}</td>
+<td>{{product.id}}</td>
+<td><img src="{{product.image.url}}" height="150px;"></td>
+         <td><button style="background-color: lightblue" type='submit'>Add To Cart</button></td>
+      <p align="right">
+         {% csrf_token %}
+    </form>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
+</body>
