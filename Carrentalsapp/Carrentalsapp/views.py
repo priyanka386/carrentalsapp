@@ -11,14 +11,10 @@ def home(request):
     return render(request ,'home.html')
 
 
-def order_list(request):
-	if request.method =='POST':
-	    id = request.POST.get("id")
-	    order_item = AddCart.objects.get(id=id)
-	    for items in order_list:
-	    	vehicle = items.vehicle
-	    	payment_status = items.payment_status
-	    	return HttpResponse('order placed')
+def myorder_list(request):
+	order_item = AddCart.objects.all()
+	payment_status = items.payment_status
+	return render( request, 'mycart/list.html',{'myorder_list': order_item})
 
 
 def order_details(request):

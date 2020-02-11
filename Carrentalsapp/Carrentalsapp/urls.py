@@ -11,7 +11,7 @@ urlpatterns = [
     path('accounts/',include('allauth.urls')),
     path('product/', include('mycart.urls')),
     path('order_details/', views.order_details),
-    path('order_list/', views.order_list , name='order_list'),
+    path('myorder_list/', views.myorder_list , name='myorder_list'),
     path('show_cart_items/', views.show_cart_items, name='show_cart_items'),
     path('add_to_cart/',views.add_to_cart),
 
