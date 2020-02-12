@@ -11,9 +11,10 @@ urlpatterns = [
     path('accounts/',include('allauth.urls')),
     path('product/', include('mycart.urls')),
     path('order_details/', views.order_details),
-    path('myorder_list/', views.myorder_list , name='myorder_list'),
+    path('my_order_list/', views.my_order_list , name='my_order_list'),
     path('show_cart_items/', views.show_cart_items, name='show_cart_items'),
     path('add_to_cart/',views.add_to_cart),
+    path('remove_from_cart/', views.remove_from_cart),
 
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

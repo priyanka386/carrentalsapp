@@ -11,18 +11,23 @@ def home(request):
     return render(request ,'home.html')
 
 
-def myorder_list(request):
-	order_item = AddCart.objects.all()
-	payment_status = items.payment_status
-	return render( request, 'mycart/list.html',{'myorder_list': order_item})
+def my_order_list(request):
+
+	id = request.GET.get("id")
+	vehicle_obj = Vehicle.objects.get(id=id)
+	add_cart = Orders.objects.create(vehicle = vehicle_obj ,payment_status= True) 
+	cart_obj = Orders.objects.all()
+	return render (request, 'mycart/list.html',{'my_order_list': cart_obj})
 
 
 def order_details(request):
     info=Vehicle.objects.all()
     return render(request,'mycart/order.html',{'order_details':info})
 
-
 def add_to_cart(request):
+	# cart_obj = AddCart.objects.all()
+	# if cart_obj:
+	# 	cart_obj.delete()
 	if request.method == 'POST':
 		id = request.POST.get("id")
 		product_obj = Vehicle.objects.get(id=id)
@@ -32,6 +37,9 @@ def add_to_cart(request):
 		
 
 def show_cart_items(request):
+	cart_obj = Orders.objects.all()
+	if cart_obj:		
+		cart_obj.delete()
 	show_cart_items = AddCart.objects.all()
 	total=0
 	for product in show_cart_items:
@@ -39,7 +47,13 @@ def show_cart_items(request):
 	return render( request,'mycart/showcart.html',{'show_cart_items': show_cart_items,'total':total } )
 
 
-	
+def remove_from_cart(request):
+	id = request.GET["id"]
+	cart_item = AddCart.objects.get(id = id)
+	cart_item.delete()
+	return redirect('show_cart_items')
+
+
 
 
 

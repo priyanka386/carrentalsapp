@@ -1,4 +1,7 @@
 
+
+
+
 <table>
 	<table class="table table-hover">
   <thead>
@@ -10,12 +13,16 @@
     </tr>
   </thead>
     <tr>
+      
     {% for product in show_cart_items %}
+<form method="POST" action=/my_order_list/?id={{product.vehicle.id}}>
+{% csrf_token %} 
       <td>{{ product.vehicle.name }}</td>
       <td>{{ product.vehicle.image }}</td>                      
       <td>{{ product.grand_total }}</td>
       <td><img src="{{product.vehicle.image.url}}" height="150px;"></td>
-
+            <td><a href=/remove_from_cart/?id={{product.id}}>Remove cart</a></td>
+            <td><button style="" type='submit'>place order</button></td>
     </tr>
     {% endfor %}
 <tr>
